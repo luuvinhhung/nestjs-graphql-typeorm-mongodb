@@ -12,7 +12,25 @@
     "member-ordering": [false],
     "interface-name": [false],
     "arrow-parens": false,
-    "object-literal-sort-keys": false
+    "object-literal-sort-keys": false,
+
+    "indent": [true, "tabs", 2],
+		"trailing-comma": false,
+		"semicolon": false,
+		"no-console": false,
+		"no-shadowed-variable": false,
+		"no-string-literal": false,
+		"no-empty": false,
+		"variable-name": [true, "allow-leading-underscore"],
+		"object-literal-key-quotes": false,
+		"no-bitwise": false,
+		"no-var-requires": false,
+		"no-unused-expression": false,
+		"max-classes-per-file": true,
+		"no-trailing-whitespace": true
   },
-  "rulesDirectory": []
+  "rulesDirectory": [],
+  "lintOptions": {
+		"typeCheck": true
+	}
 }
